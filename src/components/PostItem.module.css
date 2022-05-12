@@ -6,6 +6,7 @@
   padding: 1.5rem;
   margin-bottom: 20px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .title {
@@ -37,4 +38,20 @@
 .post__container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.Addbtn {
+  border: none;
+  background-color: rgb(227, 92, 119);
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px ;
+  font-size: 20px;
+}
+
+.btnCont {
+  display: flex;
+  justify-content:space-around;
 }
