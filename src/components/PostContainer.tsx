@@ -5,7 +5,7 @@ import { PostItem } from "./PostItem";
 import styles from "./PostItem.module.css";
 
 export const PostContainer: React.FC = () => {
-  const [limit, setLimit] = useState(100);
+  const [limit, setLimit] = useState(5);
   const { data: posts, error, isLoading } = postAPI.useFetchAllQuery(limit);
   const [createPost, {}] = postAPI.useCreatePostMutation({});
   const [deletePost, {}] = postAPI.useDeletePostMutation();
@@ -32,7 +32,7 @@ export const PostContainer: React.FC = () => {
       <div>
         <div className={styles.btnCont}>
           <button className={styles.Addbtn} onClick={() => setLimit(limit + 1)}>
-            add more post +1
+            add more post +1 <br /> in grid from db
           </button>
           <button
             className={styles.Addbtn}

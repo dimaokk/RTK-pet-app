@@ -1,16 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "server",
-      "body": "typicode"
-    },
-    {
-      "title": "mvfdsmvds",
-      "body": "mvfdsmvds",
-      "id": 2
-    },
-    {
       "title": "mvl;smvl;dsfmvl;dfs",
       "body": "mvl;smvl;dsfmvl;dfs",
       "id": 3
@@ -54,15 +44,19 @@
       "title": "fsd",
       "body": "fsd",
       "id": 11
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "mvldsmvds",
+      "body": "mvldsmvds",
+      "id": 12
+    },
+    {
+      "title": "vdslmvdlsa",
+      "body": "vdslmvdlsa",
+      "id": 13
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
